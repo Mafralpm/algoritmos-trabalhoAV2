@@ -228,7 +228,7 @@ tbody tr {
 }
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 500px) {
   table {
     display: block;
   }
@@ -261,37 +261,13 @@ tbody tr {
     top: 0;
   }
   table tbody tr td:nth-child(1):before {
-    content: "Date";
+    content: "Número da equipe";
   }
   table tbody tr td:nth-child(2):before {
-    content: "Order ID";
+    content: "Integrantes da equipe";
   }
   table tbody tr td:nth-child(3):before {
-    content: "Name";
-  }
-  table tbody tr td:nth-child(4):before {
-    content: "Price";
-  }
-  table tbody tr td:nth-child(5):before {
-    content: "Quantity";
-  }
-  table tbody tr td:nth-child(6):before {
-    content: "Total";
-  }
-
-  .column4,
-  .column5,
-  .column6 {
-    text-align: left;
-  }
-
-  .column4,
-  .column5,
-  .column6,
-  .column1,
-  .column2,
-  .column3 {
-    width: 100%;
+    content: "Algoritmo de ordenação";
   }
 
   tbody tr {
