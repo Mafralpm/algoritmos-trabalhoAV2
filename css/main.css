@@ -228,7 +228,7 @@ tbody tr {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 350px) {
   table {
     display: block;
   }
@@ -241,6 +241,8 @@ tbody tr {
   table tbody tr {
     height: auto;
     padding: 37px 0;
+    border:30px;
+    border-color: red;
   }
   table tbody tr td {
     padding-left: 40% !important;
@@ -274,6 +276,7 @@ tbody tr {
     font-size: 14px;
   }
 }
+
 
 @media (max-width: 576px) {
   .container-table100 {
